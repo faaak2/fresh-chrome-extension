@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Webnotes</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background: #f9f9f9;
+      width: 800px;
+      height: 600px;
+      overflow: auto;
+    }
+    h1 {
+      font-size: 1.2em;
+      color: #333;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Notes for this page</h1>
+  <ul id="pageNotes">
+    <!-- Page notes will be appended here by popup.js -->
+  </ul>
+  <h1>Notes for this domain</h1>
+  <ul id="domainNotes">
+    <!-- Domain notes will be appended here by popup.js -->
+  </ul>
+  <script src="popup.js"></script>
+</body>
+</html>
